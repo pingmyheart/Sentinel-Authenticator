@@ -48,3 +48,17 @@ Swagger endpoint is exposed at relative path `/apidocs`
 
 Run the CLI to generate OTPs based on the provided configuration file. The generated OTPs will be printed to the console
 and can be used in other applications as needed.
+The CLI can be executed with the following command:
+
+```bash
+# Get help
+python app.py -h
+
+# Generate OTPs
+python app.py totp generate
+
+# Run web server
+python app.py webserver start
+```
+
+Every commands have `-h` or `--help` flag to get more information about the command and its usage.
